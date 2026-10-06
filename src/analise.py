@@ -63,3 +63,12 @@ plt.ylabel("Valor gasto (R$)")
 
 plt.tight_layout()
 plt.show()
+mes_maior_gasto = gastos_por_mes.idxmax()
+valor_maior_mes = gastos_por_mes.max()
+
+print("\nMês com maior gasto:")
+print(f"{mes_maior_gasto}: R$ {valor_maior_mes:.2f}")
+media_mensal = gastos_por_mes.mean()
+
+print("\nMédia mensal de gastos:")
+print(f"R$ {media_mensal:.2f}")
