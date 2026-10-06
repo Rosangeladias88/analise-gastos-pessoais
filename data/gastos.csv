@@ -1,0 +1,16 @@
+data,categoria,descricao,valor
+2026-01-05,Alimentação,Supermercado,320.50
+2026-01-08,Transporte,Uber,28.90
+2026-01-10,Moradia,Aluguel,650.00
+2026-01-12,Lazer,Cinema,45.00
+2026-01-15,Alimentação,Restaurante,72.40
+2026-02-03,Transporte,Ônibus,18.00
+2026-02-07,Alimentação,Supermercado,295.80
+2026-02-10,Moradia,Energia elétrica,135.60
+2026-02-14,Lazer,Streaming,39.90
+2026-02-18,Educação,Curso online,89.90
+2026-03-02,Alimentação,Supermercado,340.20
+2026-03-06,Transporte,Uber,35.50
+2026-03-10,Moradia,Internet,99.90
+2026-03-15,Educação,Livro,65.00
+2026-03-20,Lazer,Restaurante,110.00
