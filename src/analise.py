@@ -49,6 +49,7 @@ plt.xlabel("Categoria")
 plt.ylabel("Valor gasto (R$)")
 
 plt.tight_layout()
+plt.savefig("graficos/gastos_por_categoria.png", dpi=300)
 plt.show()
 
 # Gráfico da evolução dos gastos mensais
@@ -60,8 +61,8 @@ gastos_por_mes.plot(
 plt.title("Evolução dos Gastos Mensais")
 plt.xlabel("Mês")
 plt.ylabel("Valor gasto (R$)")
-
 plt.tight_layout()
+plt.savefig("graficos/evolucao_mensal.png", dpi=300)
 plt.show()
 mes_maior_gasto = gastos_por_mes.idxmax()
 valor_maior_mes = gastos_por_mes.max()
@@ -97,4 +98,5 @@ percentuais.plot(
 plt.title("Distribuição dos Gastos por Categoria")
 plt.ylabel("")
 plt.tight_layout()
+plt.savefig("graficos/distribuicao_gastos.png", dpi=300)
 plt.show()
