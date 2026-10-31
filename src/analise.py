@@ -72,3 +72,29 @@ media_mensal = gastos_por_mes.mean()
 
 print("\nMédia mensal de gastos:")
 print(f"R$ {media_mensal:.2f}")
+
+# Análise percentual dos gastos por categoria
+
+percentuais = (
+    gastos_por_categoria / total_gastos
+) * 100
+
+print("\nPercentual de gastos por categoria:")
+
+for categoria, percentual in percentuais.items():
+    print(f"{categoria}: {percentual:.2f}%")
+
+    # Gráfico de distribuição percentual dos gastos
+
+plt.figure(figsize=(8, 6))
+
+percentuais.plot(
+    kind="pie",
+    autopct="%1.1f%%",
+    startangle=90
+)
+
+plt.title("Distribuição dos Gastos por Categoria")
+plt.ylabel("")
+plt.tight_layout()
+plt.show()
