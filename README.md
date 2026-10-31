@@ -54,3 +54,45 @@ Analisar dados de despesas pessoais para identificar padrões de consumo, princi
 ### Distribuição percentual dos gastos
 
 ![Distribuição dos gastos](graficos/distribuicao_gastos.png)
+
+
+##  Como executar o projeto
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/Rosangeladias88/analise-gastos-pessoais.git
+```
+
+### 2. Entrar na pasta do projeto
+
+```bash
+cd analise-gastos-pessoais
+```
+
+### 3. Criar um ambiente virtual
+
+```bash
+python -m venv .venv
+```
+
+### 4. Ativar o ambiente virtual (Windows PowerShell)
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+### 5. Instalar as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Executar a análise
+
+```bash
+python src/analise.py
+```
+
+Os resultados serão exibidos no terminal e os gráficos serão gerados na pasta `graficos`.
+
